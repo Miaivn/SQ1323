@@ -7,11 +7,11 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class AppTest {
+class AppTest {
     private static Calc calc;
 
     @BeforeAll
-    public static void setup() {
+    void setup() {
         calc = new Calc();
     }
 
